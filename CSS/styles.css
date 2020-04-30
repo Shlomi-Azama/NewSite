@@ -28,8 +28,13 @@ h3{
 }
 p{
   font-family: 'Montserrat', sans-serif;
-}
 
+}
+hr {
+  /*border-color: #512b58;*/
+  border-style: none;
+  border-top: dotted 5px #512b58; width: 5%; margin: auto; margin-top: 1%; margin-bottom: 1%;
+}
 /*************************************CLASS Selectors (Class have to start with  dot (.) - can use multy times)*****************************/
 .h2{
   color: #e58a8a;
@@ -78,7 +83,36 @@ width: 10%;
 }
 
 .bottom-container{
+     background-color: #66BFBF;
+     margin: 0;
+     padding: 0;
+     padding-top: 50px;
 
+}
+.skill-row{
+  width: 50%;
+  margin: 85px auto 85px auto;
+  text-align: left;
+  line-height: 1.8;
+}
+.code-img{
+  width: 23%;
+  float: left;
+  margin-right: 30px;
+}
+.design-img{
+  width: 25%;
+  float: right;
+  margin-right:  265px;
+}
+.PCT-img{
+  width: 20%;
+  float: right;
+  margin-right:  465px;
+}
+.coocking-img {
+  width: 28%;
+  float: left;
 }
 
 
